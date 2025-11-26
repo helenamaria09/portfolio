@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maria Helena - Desenvolvedora em Formação</title>
+
+    <!-- Seu CSS e fontes -->
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+    <!-- Favicon corrigido -->
+    <link rel="icon" href="./img/favicon.png" type="image/png" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Apenas texto no logo, sem imagem -->
+                <a href="#home" class="logo">Maria Helena</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Olá, eu sou <span class="highlight">Maria Helena</span>.</h1>
+                <p class="hero-subtitle">Estudante e Desenvolvedora em Formação | Criando soluções com código.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Ver Projetos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/foto-maria-helena.jpeg" alt="Maria Helena" class="profile-pic" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>Obrigada por visitar! Sou Maria Helena, atualmente cursando o <strong>1º ano do Ensino Médio</strong> no Colégio Raphael Di Santo, onde também desenvolvo minhas habilidades no <strong>Curso Técnico em Informática</strong>. Minha paixão é transformar ideias em realidade digital, e estou sempre em busca de novos desafios para aprimorar meus conhecimentos em desenvolvimento web e mobile. Acredito no poder da tecnologia para criar soluções inovadoras e acessíveis.</p>
+                
+                <h3>Interesses e Hobbies 🎨</h3>
+                <ul>
+                    <li><strong>Natação:</strong> amo praticar e adoro a sensação de disciplina e superação que ela traz.</li>
+                    <li><strong>Ballet:</strong> danço desde pequena, o que me ensinou dedicação, ritmo e expressão corporal.</li>
+                    <li><strong>Séries e Filmes:</strong> sou apaixonada por histórias envolventes; minha série favorita é <em>Alice in Borderland</em> e meu filme favorito é <em>Avatar</em>.</li>
+                </ul>
+
+                <h3>Visão e Conexão 🤝</h3>
+                <p>No futuro, pretendo cursar <strong>Jornalismo</strong>. Minha formação em TI é um diferencial estratégico, pois entendo que as duas áreas estão profundamente conectadas. A tecnologia me capacita a:</p>
+                <ul>
+                    <li>Criar plataformas e sites para <strong>distribuição de notícias</strong>.</li>
+                    <li>Desenvolver <strong>bots de checagem de fatos</strong> e assistentes inteligentes.</li>
+                    <li>Utilizar <strong>Web Scraping</strong> para análise de dados em reportagens investigativas.</li>
+                    <li>Entender a segurança e a arquitetura das <strong>mídias digitais</strong>.</li>
+                </ul>
+
+                <h3>Educação</h3>
+                <ul>
+                    <li><strong>Ensino Médio e Técnico em Informática:</strong> Colégio Raphael Di Santo</li>
+                    <li><strong>Início da Jornada:</strong> 2025</li>
+                </ul>
+                
+                <h3>Linguagens</h3>
+                <ul>
+                    <li><strong>Inglês:</strong> Avançado</li>
+                    <li><strong>Espanhol:</strong> Básico</li>
+                </ul>
+
+                <h3>Habilidades Técnicas</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-item"><i class="fas fa-microchip"></i> Lógica de Programação</div>
+                    <div class="skill-item"><i class="fas fa-lightbulb"></i> Pensamento Lógico</div>
+                    <div class="skill-item"><i class="fas fa-globe"></i> Web Scraping</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <p class="section-subtitle">Veja alguns dos meus trabalhos e estudos. Cada projeto é uma etapa da minha jornada de aprendizado.</p>
+            <div class="projects-grid">
+
+                <!-- Projeto 1 - The Sims Chatbot -->
+                <div class="project-card">
+                    <img src="https://image.thum.io/get/width/800/https://camyys2.github.io/TheSims-CHATBOT/" alt="The Sims Chatbot" />
+                    <h3>The Sims Chatbot (LLM)</h3>
+                    <p>Projeto desenvolvido <strong>em dupla</strong>: um chatbot interativo criado com IA para responder perguntas sobre o universo The Sims.</p>
+                    <div class="project-links">
+                        <a href="https://camyys2.github.io/TheSims-CHATBOT/" class="btn small-btn" target="_blank"><i class="fas fa-desktop"></i> Ver Projeto</a>
+                        <a href="https://github.com/Camyys2/TheSims-CHATBOT" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 - Site Academia GOTY -->
+                <div class="project-card">
+                    <img src="https://image.thum.io/get/width/800/https://helenamaria09.github.io/goty--academia/" alt="Site Academia GOTY" />
+                    <h3>Site Academia GOTY</h3>
+                    <p>Site institucional com páginas internas e formulário personalizado de atendimento, desenvolvido para praticar HTML e CSS.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/helenamaria09/goty--academia" class="btn small-btn" target="_blank"><i class="fas fa-desktop"></i> Ver Projeto</a>
+                        <a href="https://github.com/helenamaria09/goty--academia" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 - Card Aespa Members -->
+                <div class="project-card">
+                    <img src="https://image.thum.io/get/width/800/https://helenamaria09.github.io/aespamembers/" alt="Aespa Members Card" />
+                    <h3>Card Aespa Members</h3>
+                    <p>Card estilizado inspirado no grupo Aespa, desenvolvido com foco em visual, tipografia e identidade artística.</p>
+                    <div class="project-links">
+                        <a href="https://helenamaria09.github.io/aespamembers/" class="btn small-btn" target="_blank"><i class="fas fa-desktop"></i> Ver Projeto</a>
+                        <a href="https://github.com/helenamaria09/aespamembers" class="btn small-btn" target="_blank"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Interessada em Colaborar?</h2>
+            <p class="section-subtitle">Seja para um projeto da escola, um estágio futuro ou uma troca de ideias, adoraria conversar!</p>
+            <div class="contact-links">
+                <a href="mailto:tecmariahelenasilva@gmail.com" class="btn primary-btn"><i class="fas fa-envelope"></i> Enviar E-mail</a>
+                <a href="https://github.com/helenamaria09" class="btn secondary-btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Maria Helena. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling para os links da navegação
+        document.querySelectorAll('.nav-links a, .hero-buttons a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
